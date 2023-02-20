@@ -36,21 +36,15 @@
 
         <Rectangle Grid.Column="3" Height="383" Stroke="Black" Grid.Row="1" VerticalAlignment="Top" Margin="52,10,52,0" Grid.RowSpan="7" Grid.ColumnSpan="5" Fill="#FF949494"/>
 
-
-
         <TextBlock x:Name="tbl_login" Grid.Column="3" HorizontalAlignment="Left" Margin="74,45,0,0" Grid.Row="2" TextWrapping="Wrap" Text="Логин" VerticalAlignment="Top" FontSize="22" Grid.RowSpan="2" Grid.ColumnSpan="2"/>
+
         <TextBlock x:Name="tbl_auth" Grid.Column="4" Margin="49,44,49,0" Grid.Row="1" TextWrapping="Wrap" Text="Авторизация" VerticalAlignment="Top" Grid.ColumnSpan="3" Grid.RowSpan="2" FontSize="26"/>
-
-        <TextBox x:Name="tb_login" HorizontalAlignment="Left" Margin="74,30,0,0" TextWrapping="Wrap" VerticalAlignment="Top"  Grid.Column="3"  Grid.Row="3" FontSize="18" Width="280" Grid.ColumnSpan="5" BorderThickness="0,0,0,2"/>
-
-
+        <TextBox x:Name="tb_login" HorizontalAlignment="Left" Margin="74,30,0,0" TextWrapping="Wrap" VerticalAlignment="Top"  Grid.Column="3"  Grid.Row="3" FontSize="18" Width="280" Grid.ColumnSpan="5"/>
 
         <TextBlock x:Name="tbl_password" Grid.Column="3" HorizontalAlignment="Left" Margin="74,22,0,0" Grid.Row="4" TextWrapping="Wrap" Text="Пароль" VerticalAlignment="Top" FontSize="22" Grid.ColumnSpan="2"/>
-        <TextBox x:Name="tb_password" HorizontalAlignment="Left" Margin="74,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top"  Grid.Column="3"  Grid.Row="5" FontSize="18" Width="280" Grid.ColumnSpan="5" BorderThickness="0,0,0,2"/>
+        <TextBox x:Name="tb_password" HorizontalAlignment="Left" Margin="74,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top"  Grid.Column="3"  Grid.Row="5" FontSize="18" Width="280" Grid.ColumnSpan="5" />
 
-
-        <Button x:Name="bt_compare" Grid.Column="4" Content="Войти" Margin="20,30,20,0" Grid.Row="6" BorderBrush="{x:Null}" Foreground="White" Grid.ColumnSpan="3" FontSize="20"  Cursor="Hand" Click="bt_compare_Click"/>
-
+        <Button x:Name="bt_compare" Grid.Column="4" Content="Войти" Margin="20,30,20,0" Grid.Row="6" Grid.ColumnSpan="3" FontSize="20"  Click="bt_compare_Click"/>
 
     </Grid>
 </Window>
