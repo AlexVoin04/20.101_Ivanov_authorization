@@ -43,7 +43,7 @@ namespace _20._101_Ivanov_authorization
                 if (user != null)
                 {
                     string role = user.Role.RoleName.ToString();
-                    MessageBox.Show($"Добро пожаловать! Ваша роль:{role}");
+                    MessageBox.Show($"Добро пожаловать! Ваша роль: {role}");
                 }
                 else
                 {
